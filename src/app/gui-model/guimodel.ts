@@ -28,6 +28,13 @@ export class GuiModel {
                             "required": true
                         },
                         {
+                            "id": "nickName", 
+                            "type": "text", 
+                            "name": "Nickname", 
+                            "width": 2, 
+                            "required": true
+                        },
+                        {
                             "id":   "location",
                             "type": "autocomplete",
                             "name": "Location",
